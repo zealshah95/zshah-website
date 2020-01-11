@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://zealshah95.github.io/"
+baseURL = "https://zealshah95.github.io/"
 languageCode = "en"
 title = "Zeal Shah"
 theme = "hugo-devresume-theme"
