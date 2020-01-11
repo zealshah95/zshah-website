@@ -1,0 +1,276 @@
+# Page settings
+
+baseURL = "http://zealshah95.github.io/"
+languageCode = "en"
+title = "Zeal Shah"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Zeal Shah"
+        tagline = "Ph.D. Student"
+        avatar = "zpshah.png"
+
+
+    [params.contact]
+        enable = true
+        location = "Amherst, Massachusetts"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+1 (412) 251-6226"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "zpshah95@gmail.com"
+        [[params.contact.list]]
+        icon = "fab fa-github-square"
+        url = "#"
+        text = "www.github.com/zealshah95"
+        [[params.contact.list]]
+        icon = "fab fa-linkedin"
+        url = "#"
+        text = "www.linkedin.com/in/zealpshah"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "MATLAB"
+
+
+    [params.education]
+        enable = true
+        [[params.education.list]]
+        degree = "Ph.D. in Electrical & Computer Engineering"
+        university = "University of Massachusetts Amherst"
+        dates = "2018 - Present"
+        [[params.education.list]]
+        degree = "M.S. in Energy Science, Technology & Policy"
+        university = "Carnegie Mellon University"
+        dates = "2016 - 2017"
+        [[params.education.list]]
+        degree = "B.Tech. in Electrical Engineering"
+        university = "Pandit Deendayal Petroleum University"
+        dates = "2012 - 2016"
+
+
+    [params.courses]
+        enable = true
+        [[params.courses.list]]
+
+        [[params.courses.list.items]]
+        details = "Neural Networks"
+        [[params.courses.list.items]]
+        details = "Machine Learning"
+        [[params.courses.list.items]]
+        details = "Distributed & Operating Systems"
+        [[params.courses.list.items]]
+        details = "Algorithms"
+        [[params.courses.list.items]]
+        details = "Computer Architecture"
+        [[params.courses.list.items]]
+        details = "Probability & Random Processes"
+        [[params.courses.list.items]]
+        details = "Linear Systems"
+        [[params.courses.list.items]]
+        details = "Applied Stochastic Processes"
+        [[params.courses.list.items]]
+        details = "Optimization"
+        [[params.courses.list.items]]
+        details = "Data-driven Energy Management"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Dean's Fellowship"
+        body = "UMass Amherst"
+        date = "2018"
+        [[params.awards.list]]
+        name = "Travel Grant Award"
+        body = "IEEE Industry Applications Society"
+        date = "2015"
+        [[params.awards.list]]
+        name = "Travel Grant Award"
+        body = "IEEE Energy Conversion Congress and Exposition"
+        date = "2015"
+
+
+    [params.summary]
+        enable = true
+        text = "Hello! My name is Zeal and I am a second year Ph.D. student in the Electrical & Computer Engineering department at University of Massachusetts Amherst. I work at the Systems Towards Infrastructure Measurement & Analytics (STIMA) lab, advised by Prof. Jay Taneja. I hold a master’s degree in Energy Science, Technology & Policy with concentration in ECE from Carnegie Mellon University. My research at UMass Amherst is focused on harnessing the power of data and technology for developing low-cost energy infrastructure monitoring and management solutions. Additionally, my work also involves using mobile systems, remote sensing, machine learning & deep learning for acquiring data and information in low-data settings."
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Graduate Research Assistant"
+        dates = "Aug 2018 - Present"
+        company = "STIMA Lab, UMass Amherst"
+        [[params.experience.list.items]]
+        details = "Research Focus: Data science and AI for social good, technology for development, sustainability, energy access."
+
+        [[params.experience.list]]
+        title = "Data Science Intern"
+        dates = "Feb 2018 - Sep 2018"
+        company = "SparkMeter, Inc."
+        [[params.experience.list.items]]
+        details = "Developed a monitoring tool using Grafana and SQL for real-time monitoring of deployed smart meters, base stations and cloud services to facilitate efficient troubleshooting."
+        [[params.experience.list.items]]
+        details = "Analyzed smart meter data to track the evolution of electricity quality and reliability across 68 sites spread over Sub-Saharan Africa and South-Asia with 10 to 500+ customers per site."
+        [[params.experience.list.items]]
+        details = "Provided need based data and analysis support to different teams."
+
+        [[params.experience.list]]
+        title = "Engineering Intern (Remote)"
+        dates = "Jun 2018 - Jul 2018"
+        company = "Nikola Power"
+        [[params.experience.list.items]]
+        details = "Developed an optimal battery dispatching algorithm to minimize the operating cost of residential solar grid+storage system by controlling charging & discharging of the battery."
+        [[params.experience.list.items]]
+        details = "Assisted in development of short-term load forecasting algorithm for company’s residential energy management system product."
+
+        [[params.experience.list]]
+        title = "Graduate Teaching Assistant"
+        dates = "Jan 2017 - Dec 2017"
+        company = "Carnegie Mellon University"
+        [[params.experience.list.items]]
+        details = "Head TA for two senior level courses: Fundamentals of Power Systems and Embedded Systems."
+        [[params.experience.list.items]]
+        details = "Delivered technical lectures on modeling & simulation of power systems, and solving computational power systemsproblems like optimal power flow in MATLAB."
+
+        [[params.experience.list]]
+        title = "Data Science Intern"
+        dates = "May 2017 - Aug 2017"
+        company = "SparkMeter, Inc."
+        [[params.experience.list.items]]
+        details = "Developed a suite of interactive analytical reports that provide actionable commercial, financial and technical insights into grid operations to company’s utility customers."
+        [[params.experience.list.items]]
+        details = "Created an outlier detection and removal program to filter noise recorded by smart meters."
+
+
+    [params.ongoingprojects]
+        enable = true
+
+        [[params.ongoingprojects.list]]
+        title = "Deep Learning for Mapping Buildings in Satellite Imagery"
+        details = "Process massive satellite imagery datasets on GPU clusters and apply deep learning techniques to map buildings in these images, to support infrastructure planning efforts in emerging economies."
+
+        [[params.ongoingprojects.list]]
+        title = "Monitoring Electric Grid Reliability Using Satellite Data"
+        details = "Develop electric grid reliability measurement indices using nighttime-lights satellite data to enable grid reliability monitoring at a global scale; create an API to make indices publicly accessible."
+
+        [[params.ongoingprojects.list]]
+        title = "Tracking Infrastructure Recovery Post Aerial Bombing"
+        details = "Develop mechanisms to track, quantify, and map energy infrastructure recovery in conflict affected regions using satellite data, to help humanitarian efforts."
+
+
+    [params.pastprojects]
+        enable = true
+
+        [[params.pastprojects.list]]
+        title = "GridInSight: Monitoring Electricity Using Visible Lights"
+        company = "STIMA Lab"
+        details = "Created a low-cost solution to non-intrusively monitor grid power quality and phase using smartphone cameras to facilitate better management of grids in developing countries."
+        [[params.pastprojects.list.items]]
+        details = "Demonstrated the use of cell phone and machine vision cameras to non-intrusively monitor electric-grid frequency and phase with errors of 1-2%, and 2-10%, respectively."
+        [[params.pastprojects.list.items]]
+        details = "Developed a novel technique that uses cameras to passively monitor voltage, and obtained an error of 8-15% for measuringvoltage of a light bulb that our system had not seen previously."
+
+
+        [[params.pastprojects.list]]
+        title = "Smart Metering Data For Tracking Access to Electricity"
+        [[params.pastprojects.list.items]]
+        details = "Analyzed smart meter data to track the evolution of electricity availability, reliability, quality, and grid capacity across 68sites spread over Sub-Saharan Africa and South-Asia with 10 to 500+ customers (smart meters) per site."
+        [[params.pastprojects.list.items]]
+        details = "Quantified the growth of energy access across sites by linking smart meter data analysis to World Bank’s Multi-tierFramework for household electricity supply."
+
+
+
+    [params.courseprojects]
+        enable = true
+
+        [[params.courseprojects.list]]
+        title = "Multi-tier Online Book Store"
+        details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery."
+
+        [[params.courseprojects.list]]
+        title = "Where, When and Watt?"
+        details = "Created a program to predict occupancy of different rooms based on appliance power consumption data and achieved 93% model prediction accuracy."
+
+        [[params.courseprojects.list]]
+        title = "New York State Energy Brief"
+        details = "Analyzed multiple open-source datasets to study and predict NY’s energy consumption in residential, commercial, industrial and transportation sectors."
+
+        [[params.courseprojects.list]]
+        title = "Solving Unit Commitment"
+        details = "Implemented mixed-integer linear programming (Branch & Bound method) to solve a 24-hour unit commitment problem using data from multiple generators and demand data."
+
+        [[params.courseprojects.list]]
+        title = "Energy Policy & Economics"
+        details = "Studied and delivered policy evaluation write-ups on energy security, clean power plan, emissions from internationaltransportation, 100% renewable vs. 0 emissions, and renewable integration in regulated vs. deregulated electricity markets."
+
+        [[params.courseprojects.list]]
+        title = "Analysis of Energy Transport & Storage in Switzerland"
+        details = "Studied and presented a detailed analysis of energy transmission and storage in Zürich and Canton of Valais; Proposed solutions to reduce congestion and achieve their future energy goals"
+
+    [params.publications]
+        enable = true
+
+        [[params.publications.list]]
+        title = "Conference Papers"
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**."
+
+        [[params.publications.list]]
+        title = "Posters & Presentations"
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**."
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019."
+        [[params.publications.list.items]]
+        details = "Jon Thacker, **Zeal Shah**. “Smart Metering Data For Tracking Access to Electricity.” In the 7th Microgrid Global Innovation Forum, September 2018."
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Yoolhee Kim, Anand Prakash, Vasu Nambeesan. “Occupancy Prediction Based on the Power Consumption Patterns.” In the Carnegie Mellon University Symposium on Machine Learning in Science and Engineering, May 2017."
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Siddhartha Joshi. “Operation and Analysis of a Bi-directional DC-DC Converter for Efficient Charge Control of Battery in a Microgrid.” In the 50th IEEE Industry Applications Society Annual Meeting, October 2015."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/zealshah95"
+        title = "zealshah95"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/zealpshah"
+        title = "zealpshah"
+
+
+
+
+
