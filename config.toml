@@ -38,12 +38,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "zpshah95@gmail.com"
         [[params.contact.list]]
         icon = "fab fa-github-square"
-        url = "#"
-        text = "www.github.com/zealshah95"
+        url = "www.github.com/zealshah95"
+        text = "zealshah95"
         [[params.contact.list]]
         icon = "fab fa-linkedin"
-        url = "#"
-        text = "www.linkedin.com/in/zealpshah"
+        url = "www.linkedin.com/in/zealpshah"
+        text = "zealpshah"
 
 
     [params.skills]
