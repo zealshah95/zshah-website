@@ -222,8 +222,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.courseprojects.list]]
-        title = "Multi-tier Online Book Store [Link](https://github.com/zealshah95/distributed_systems)"
-        details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery."
+        title = "Multi-tier Online Book Store"
+        details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery. [_Link_](https://github.com/zealshah95/distributed_systems)"
 
         [[params.courseprojects.list]]
         title = "Where, When and Watt?"
