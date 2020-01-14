@@ -206,7 +206,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.pastprojects.list.items]]
         details = "Analyzed smart meter data to track the evolution of electricity availability, reliability, quality, and grid capacity across 68sites spread over Sub-Saharan Africa and South-Asia with 10 to 500+ customers (smart meters) per site."
         [[params.pastprojects.list.items]]
-        details = "Quantified the growth of energy access across sites by linking smart meter data analysis to World Bank’s Multi-tierFramework for household electricity supply."
+        details = "Quantified the growth of energy access across sites by linking smart meter data analysis to World Bank’s Multi-tier Framework for household electricity supply."
 
 
 
