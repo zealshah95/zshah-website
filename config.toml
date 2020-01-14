@@ -32,18 +32,22 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-github-square"
         url = "//github.com/zealshah95"
         text = "zealshah95"
+
         [[params.contact.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/zealpshah"
         text = "zealpshah"
+
+        [[params.contact.list]]
+        icon = "far fa-file-code"
+        url = "//zealshah95.github.io/final_zpshah_cv.pdf"
+        text = "Download Resume"
+
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
         text = "+1 (412) 251-6226"
-        [[params.contact.list]]
-        icon = "cv"
-        url = "//zealshah95.github.io/final_zpshah_cv.pdf"
-        text = "Download Resume"
+
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
