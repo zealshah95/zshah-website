@@ -222,7 +222,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.courseprojects.list]]
-        title = "Multi-tier Online Book Store"
+        title = "Multi-tier Online Book Store [[Link](https://github.com/zealshah95/distributed_systems)]"
         details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery."
 
         [[params.courseprojects.list]]
@@ -256,7 +256,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.publications.list]]
         title = "Posters & Presentations"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Jay Taneja [Google](https://google.com). “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**."
+        details = "**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**."
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019."
         [[params.publications.list.items]]
