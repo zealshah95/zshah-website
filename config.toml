@@ -260,7 +260,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019."
         [[params.publications.list.items]]
-        details = "Jon Thacker, **Zeal Shah**. “Smart Metering Data For Tracking Access to Electricity.” In the 7th Microgrid Global Innovation Forum, September 2018."
+        details = "“Smart Metering Data For Tracking Access to Electricity.” SparkMeter's keynote at the 7th Microgrid Global Innovation Forum, September 2018. (Presented by Jon Thacker)"
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Yoolhee Kim, Anand Prakash, Vasu Nambeesan. “Occupancy Prediction Based on the Power Consumption Patterns.” In the Carnegie Mellon University Symposium on Machine Learning in Science and Engineering, May 2017."
         [[params.publications.list.items]]
