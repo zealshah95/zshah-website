@@ -223,7 +223,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.courseprojects.list]]
         title = "Multi-tier Online Book Store"
-        details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery. [__Link__](https://github.com/zealshah95/distributed_systems)"
+        details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery. [__Link__](zealshah95.github.io/distributed_systems)"
 
         [[params.courseprojects.list]]
         title = "Where, When and Watt?"
@@ -256,13 +256,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.publications.list]]
         title = "Posters & Presentations"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**. [__Link__](https://github.com/zealshah95/reliability_studies_poster.pdf)"
+        details = "**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**. [__Link__](zealshah95.github.io/reliability_studies_poster.pdf)"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019. [__Link__](https://github.com/zealshah95/gridinsight_poster.pdf)"
+        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019. [__Link__](zealshah95.github.io/gridinsight_poster.pdf)"
         [[params.publications.list.items]]
         details = "“Smart Metering Data For Tracking Access to Electricity.” SparkMeter's keynote at the 7th Microgrid Global Innovation Forum, September 2018. (Presented by Jon Thacker)"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Yoolhee Kim, Anand Prakash, Vasu Nambeesan. “Occupancy Prediction Based on the Power Consumption Patterns.” In the Carnegie Mellon University Symposium on Machine Learning in Science and Engineering, May 2017. [__Link__](https://github.com/zealshah95/Where_When_and_Watt.pdf)"
+        details = "**Zeal Shah**, Yoolhee Kim, Anand Prakash, Vasu Nambeesan. “Occupancy Prediction Based on the Power Consumption Patterns.” In the Carnegie Mellon University Symposium on Machine Learning in Science and Engineering, May 2017. [__Link__](zealshah95.github.io/Where_When_and_Watt.pdf)"
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Siddhartha Joshi. “Operation and Analysis of a Bi-directional DC-DC Converter for Efficient Charge Control of Battery in a Microgrid.” In the 50th IEEE Industry Applications Society Annual Meeting, October 2015."
 
