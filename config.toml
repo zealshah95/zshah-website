@@ -127,7 +127,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Hello! My name is Zeal and I am a second year Ph.D. student in the Electrical & Computer Engineering department at University of Massachusetts Amherst. I work at the Systems Towards Infrastructure Measurement & Analytics (STIMA) lab, advised by Prof. Jay Taneja. I hold a master’s degree in Energy Science, Technology & Policy with concentration in ECE from Carnegie Mellon University. My research at UMass Amherst is focused on harnessing the power of data and technology for developing low-cost energy infrastructure monitoring and management solutions. Additionally, my work also involves using mobile systems, remote sensing, machine learning & deep learning for acquiring data and information in low-data settings."
+        text = "Hello! My name is Zeal and I am a third year Ph.D. student in the Electrical & Computer Engineering department at University of Massachusetts Amherst. I work at the Systems Towards Infrastructure Measurement & Analytics (STIMA) lab, advised by Prof. Jay Taneja. I hold a master’s degree in Energy Science, Technology & Policy with concentration in ECE from Carnegie Mellon University. My research at UMass Amherst is focused on harnessing the power of data and technology for developing low-cost energy infrastructure monitoring and management solutions. Additionally, my work also involves using mobile systems, remote sensing, machine learning & deep learning for acquiring data and information in low-data settings."
 
 
 
@@ -139,7 +139,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "Aug 2018 - Present"
         company = "STIMA Lab, UMass Amherst"
         [[params.experience.list.items]]
-        details = "Research Focus: Data science and AI for social good, technology for development, sustainability, energy access."
+        details = "Research Focus: Data science and AI for social good, technology for development, remote sensing, energy analytics."
+
+        [[params.experience.list]]
+        title = "AI Engineering Intern"
+        dates = "Aug 2018 - Present"
+        company = "Atlas AI"
+        [[params.experience.list.items]]
+        details = "Applied machine learning to satellite data to develop a new data layer - monthly electrification maps with spatial resolution of 0.5km for the continent of Africa, from 2012 to present."
+        [[params.experience.list.items]]
+        details = "Built prototype of energy consumption data layer that used electrification maps, publicly available satellite data and surveys to estimate tiers of energy consumption at a spatial resolution of 0.5km."
+        [[params.experience.list.items]]
+        details = "Developed the aforementioned data layers to improve the market insights being delivered to company's clients and to supplement data used for training company's proprietary ML models."
+        [[params.experience.list.items]]
+        details = "Gained experience in building end-to-end data pipelines using Google Cloud products - BigQuery, Bucket, Compute Engine, and a geospatial data analysis platform - Google Earth Engine."
 
         [[params.experience.list]]
         title = "Data Science Intern"
@@ -159,7 +172,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Developed an optimal battery dispatching algorithm to minimize the operating cost of residential solar grid+storage system by controlling charging & discharging of the battery."
         [[params.experience.list.items]]
-        details = "Assisted in development of short-term load forecasting algorithm for company’s residential energy management system product."
+        details = "Assisted in development of short-term load forecasting algorithm for company’s residential energy management system."
 
         [[params.experience.list]]
         title = "Graduate Teaching Assistant"
@@ -168,7 +181,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Head TA for two senior level courses: Fundamentals of Power Systems and Embedded Systems."
         [[params.experience.list.items]]
-        details = "Delivered technical lectures on modeling & simulation of power systems, and solving computational power systemsproblems like optimal power flow in MATLAB."
+        details = "Delivered technical lectures on modeling & simulation of power systems, and solving computational power systems problems like optimal power flow in MATLAB."
 
         [[params.experience.list]]
         title = "Data Science Intern"
@@ -192,12 +205,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Develop electric grid reliability measurement indices using nighttime-lights satellite data to enable grid reliability monitoring at a global scale; create an API to make indices publicly accessible."
 
         [[params.ongoingprojects.list]]
-        title = "Tracking Infrastructure Recovery Post Aerial Bombing"
-        details = "Develop mechanisms to track, quantify, and map energy infrastructure recovery in conflict affected regions using satellite data, to help humanitarian efforts."
+        title = "GridInSight 2.0: Monitoring Electricity Using Visible Lights"
+        details = "Develop a non-intrusive grid monitoring solution using machine vision cameras that is capable of monitoring power quality of the distribution grids at the edges of the network in real time; evaluate and improve the system to make it deployable at scale."
 
 
     [params.pastprojects]
         enable = true
+
+        [[params.pastprojects.list]]
+        title = "Mapping Disasters & Tracking Recovery in Conflict Zones Using Nighttime Lights"
+        company = "STIMA Lab"
+        details = "Developed a technique to generate high resolution (~0.5km) disaster maps of a region as soon as one day after the crisis begins, to deliver up-to-date information regarding spatial extent of the disaster to disaster managers."
+        [[params.pastprojects.list.items]]
+        details = "Demonstrated a method to precisely identify the day when bombing occured by tracking sudden changes in nigttime lights illumination."
+        [[params.pastprojects.list.items]]
+        details = "Detected and characterized electricity outages across a conflict-affected region; presented a case study on Sana'a - capital city of Yemen."
+        [[params.pastprojects.list.items]]
+        details = "Proposed and evaluated two recovery measurement indices to trace recovery of the region spatially and temporally."
+        [[params.pastprojects.list.items]]
+        details = "Published full paper in the proceedings of IEEE GHTC'20, October 2020. [__Link__](zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
+
 
         [[params.pastprojects.list]]
         title = "GridInSight: Monitoring Electricity Using Visible Lights"
@@ -206,7 +233,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.pastprojects.list.items]]
         details = "Demonstrated the use of cell phone and machine vision cameras to non-intrusively monitor electric-grid frequency and phase with errors of 1-2%, and 2-10%, respectively."
         [[params.pastprojects.list.items]]
-        details = "Developed a novel technique that uses cameras to passively monitor voltage, and obtained an error of 8-15% for measuringvoltage of a light bulb that our system had not seen previously."
+        details = "Developed a novel technique that uses cameras to passively monitor voltage, and obtained an error of 8-15% for measuring voltage of a light bulb that our system had not seen previously."
+        [[params.pastprojects.list.items]]
+        details = "Published full paper in the proceedings of ACM BuildSys'19, November 2019. [__Link__](zealshah95.github.io/GridInSight_BuildSys.pdf)"
 
 
         [[params.pastprojects.list]]
@@ -215,6 +244,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Analyzed smart meter data to track the evolution of electricity availability, reliability, quality, and grid capacity across 68sites spread over Sub-Saharan Africa and South-Asia with 10 to 500+ customers (smart meters) per site."
         [[params.pastprojects.list.items]]
         details = "Quantified the growth of energy access across sites by linking smart meter data analysis to World Bank’s Multi-tier Framework for household electricity supply."
+        [[params.pastprojects.list.items]]
+        details = "Presented by SparkMeter at the 7th Microgrid Innovation Forum, September 2018."
 
 
 
@@ -251,7 +282,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.publications.list]]
         title = "Conference Papers"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**."
+        details = "**Zeal Shah**, Feng-Chi Hsu, Christopher D. Elvidge, and Jay Taneja. "Mapping Disasters \& Tracking Recovery in Conflict Zones Using Nighttime Lights." In the IEEE Global Humanitarian Technology Conference (GHTC'20), October 2020. [__Link__](zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**. [__Link__](zealshah95.github.io/GridInSight_BuildSys.pdf)"
 
         [[params.publications.list]]
         title = "Posters & Presentations"
