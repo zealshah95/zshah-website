@@ -282,7 +282,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.publications.list]]
         title = "Conference Papers"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Feng-Chi Hsu, Christopher D. Elvidge, and Jay Taneja. "Mapping Disasters \& Tracking Recovery in Conflict Zones Using Nighttime Lights." In the IEEE Global Humanitarian Technology Conference (GHTC'20), October 2020. [__Link__](zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
+        details = "**Zeal Shah**, Feng-Chi Hsu, Christopher D. Elvidge, and Jay Taneja. “Mapping Disasters \& Tracking Recovery in Conflict Zones Using Nighttime Lights.” In the IEEE Global Humanitarian Technology Conference (GHTC'20), October 2020. [__Link__](zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**. [__Link__](zealshah95.github.io/GridInSight_BuildSys.pdf)"
 
