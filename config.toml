@@ -206,7 +206,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.ongoingprojects.list]]
         title = "GridInSight 2.0: Monitoring Electricity Using Visible Lights"
-        details = "Develop a non-intrusive grid sensing system using machine vision cameras to monitor power quality of the distribution grids at the edges of the network in real time; evaluate and improve the system to make it deployable at scale."
+        details = "Develop a non-intrusive grid sensing system using machine vision cameras to monitor power quality of the electric grids at the edges of the distribution network in real time; evaluate and improve the system to make it deployable at scale."
 
 
     [params.pastprojects]
