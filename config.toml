@@ -197,12 +197,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.ongoingprojects.list]]
-        title = "Deep Learning for Mapping Buildings in Satellite Imagery"
-        details = "Process massive satellite imagery datasets on GPU clusters and apply deep learning techniques to map buildings in these images, to support infrastructure planning efforts in emerging economies."
+        title = "Deep Learning for Measuring Density of Different Classes of Buildings in Satellite Images"
+        details = "Estimate density of residential, commercial and industrial buildings in daytime satellite images using deep learning, to support energy demand prediction efforts in emerging economies."
 
         [[params.ongoingprojects.list]]
         title = "Monitoring Electric Grid Reliability Using Satellite Data"
-        details = "Develop electric grid reliability measurement indices using nighttime-lights satellite data to enable grid reliability monitoring at a global scale; create an API to make indices publicly accessible."
+        details = "Develop, evaluate and improve novel electric grid reliability measurement indices using nighttime-lights satellite data to enable grid reliability monitoring at a global scale; create an API to make indices publicly accessible."
 
         [[params.ongoingprojects.list]]
         title = "GridInSight 2.0: Monitoring Electricity Using Visible Lights"
@@ -221,7 +221,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.pastprojects.list.items]]
         details = "Detected and characterized electricity outages across a conflict-affected region; presented a case study on Sana'a - capital city of Yemen."
         [[params.pastprojects.list.items]]
-        details = "Proposed and evaluated two recovery measurement indices to trace recovery of the region spatially and temporally."
+        details = "Proposed and evaluated two recovery measurement indices to trace recovery of the region spatially and temporally using nigttime lights data."
         [[params.pastprojects.list.items]]
         details = "Published full paper in the proceedings of IEEE GHTC'20, October 2020. [__Link__](zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
 
@@ -254,11 +254,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.courseprojects.list]]
         title = "Multi-tier Online Book Store"
-        details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery. [__Link__](zealshah95.github.io/distributed_systems)"
+        details = "Developed a multi-tier web application using Flask in Python and added features like caching, replication, load-balancing, fault tolerance and recovery. [__Link__](https://github.com/zealshah95/distributed_systems)"
 
         [[params.courseprojects.list]]
         title = "Where, When and Watt?"
-        details = "Created a program to predict occupancy of different rooms based on appliance power consumption data and achieved 93% model prediction accuracy."
+        details = "Created a program to predict occupancy of different rooms based on appliance power consumption data and achieved 93% model prediction accuracy. [__Link__](zealshah95.github.io/Where_When_and_Watt.pdf)"
 
         [[params.courseprojects.list]]
         title = "New York State Energy Brief"
