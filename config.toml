@@ -40,7 +40,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.contact.list]]
         icon = "far fa-file-code"
-        url = "//zealshah95.github.io/final_zpshah_cv2.pdf"
+        url = "//zealshah95.github.io/zpshah_CV_2020_21.pdf"
         text = "Curriculum Vitae"
 
         [[params.contact.list]]
