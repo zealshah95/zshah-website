@@ -215,6 +215,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.pastprojects.list]]
         title = "Mapping Disasters & Tracking Recovery in Conflict Zones Using Nighttime Lights"
         company = "STIMA Lab"
+        [[params.pastprojects.list.items]]
         details = "Developed a technique to generate high resolution (~0.5km) disaster maps of a region as soon as one day after the crisis begins, to deliver up-to-date information regarding spatial extent of the disaster to disaster managers."
         [[params.pastprojects.list.items]]
         details = "Demonstrated a method to precisely identify the day when bombing occured by tracking sudden changes in nigttime lights illumination."
