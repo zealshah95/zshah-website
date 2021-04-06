@@ -224,7 +224,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.pastprojects.list.items]]
         details = "Proposed and evaluated two recovery measurement indices to trace recovery of the region spatially and temporally using nigttime lights data."
         [[params.pastprojects.list.items]]
-        details = "Published full paper in the proceedings of IEEE GHTC'20, October 2020. [__Link__](zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
+        details = "Published full paper in the proceedings of IEEE GHTC'20, October 2020. [__Link__](//zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
 
 
         [[params.pastprojects.list]]
@@ -236,7 +236,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.pastprojects.list.items]]
         details = "Developed a novel technique that uses cameras to passively monitor voltage, and obtained an error of 8-15% for measuring voltage of a light bulb that our system had not seen previously."
         [[params.pastprojects.list.items]]
-        details = "Published full paper in the proceedings of ACM BuildSys'19, November 2019. [__Link__](zealshah95.github.io/GridInSight_BuildSys.pdf)"
+        details = "Published full paper in the proceedings of ACM BuildSys'19, November 2019. [__Link__](//zealshah95.github.io/GridInSight_BuildSys.pdf)"
 
 
         [[params.pastprojects.list]]
@@ -259,7 +259,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.courseprojects.list]]
         title = "Where, When and Watt?"
-        details = "Created a program to predict occupancy of different rooms based on appliance power consumption data and achieved 93% model prediction accuracy. [__Link__](zealshah95.github.io/Where_When_and_Watt.pdf)"
+        details = "Created a program to predict occupancy of different rooms based on appliance power consumption data and achieved 93% model prediction accuracy. [__Link__](//zealshah95.github.io/Where_When_and_Watt.pdf)"
 
         [[params.courseprojects.list]]
         title = "New York State Energy Brief"
@@ -283,20 +283,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.publications.list]]
         title = "Conference Papers"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Feng-Chi Hsu, Christopher D. Elvidge, and Jay Taneja. “Mapping Disasters & Tracking Recovery in Conflict Zones Using Nighttime Lights.” In the IEEE Global Humanitarian Technology Conference (GHTC'20), October 2020. [__Link__](zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
+        details = "**Zeal Shah**, Feng-Chi Hsu, Christopher D. Elvidge, and Jay Taneja. “Mapping Disasters & Tracking Recovery in Conflict Zones Using Nighttime Lights.” In the IEEE Global Humanitarian Technology Conference (GHTC'20), October 2020. [__Link__](//zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**. [__Link__](zealshah95.github.io/GridInSight_BuildSys.pdf)"
+        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**. [__Link__](//zealshah95.github.io/GridInSight_BuildSys.pdf)"
 
         [[params.publications.list]]
         title = "Posters & Presentations"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**. [__Link__](zealshah95.github.io/reliability_studies_poster.pdf)"
+        details = "**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**. [__Link__](//zealshah95.github.io/reliability_studies_poster.pdf)"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019. [__Link__](zealshah95.github.io/gridinsight_poster.pdf)"
+        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019. [__Link__](//zealshah95.github.io/gridinsight_poster.pdf)"
         [[params.publications.list.items]]
         details = "“Smart Metering Data For Tracking Access to Electricity.” SparkMeter's keynote at the 7th Microgrid Global Innovation Forum, September 2018. (Presented by Jon Thacker)"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Yoolhee Kim, Anand Prakash, Vasu Nambeesan. “Occupancy Prediction Based on the Power Consumption Patterns.” In the Carnegie Mellon University Symposium on Machine Learning in Science and Engineering, May 2017. [__Link__](zealshah95.github.io/Where_When_and_Watt.pdf)"
+        details = "**Zeal Shah**, Yoolhee Kim, Anand Prakash, Vasu Nambeesan. “Occupancy Prediction Based on the Power Consumption Patterns.” In the Carnegie Mellon University Symposium on Machine Learning in Science and Engineering, May 2017. [__Link__](//zealshah95.github.io/Where_When_and_Watt.pdf)"
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Siddhartha Joshi. “Operation and Analysis of a Bi-directional DC-DC Converter for Efficient Charge Control of Battery in a Microgrid.” In the 50th IEEE Industry Applications Society Annual Meeting, October 2015."
 
