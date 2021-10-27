@@ -36,20 +36,16 @@
                             {{ partial "experience.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.ongoingprojects.enable }}
-                            {{ partial "on-going-projects.html" . }}
-                            {{ end }}
-
-                            {{ if .Site.Params.pastprojects.enable }}
-                            {{ partial "past-projects.html" . }}
-                            {{ end }}
-
-                            {{ if .Site.Params.courseprojects.enable }}
-                            {{ partial "selected_course_projects.html" . }}
+                            {{ if .Site.Params.researchprojects.enable }}
+                            {{ partial "researchprojects.html" . }}
                             {{ end }}
 
                             {{ if .Site.Params.publications.enable }}
                             {{ partial "publications.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.courseprojects.enable }}
+                            {{ partial "selected_course_projects.html" . }}
                             {{ end }}
 
                         </div><!--//resume-main-->

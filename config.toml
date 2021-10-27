@@ -20,7 +20,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Zeal Shah"
-        tagline = "Ph.D. Student"
+        tagline = "Ph.D. Student | Researcher, Data Science for Development"
         avatar = "zpshah.png"
 
 
@@ -41,12 +41,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.contact.list]]
         icon = "far fa-file-code"
         url = "//zealshah95.github.io/zpshah_CV_2020_21.pdf"
-        text = "Curriculum Vitae"
+        text = "Resume"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "+1 (412) 251-6226"
+        text = "+1(412) 251-6226"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
@@ -58,13 +58,24 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Programming"
         [[params.skills.list.items]]
-        details = "Python"
+        details = "Python, SQL, MATLAB"
+
+        [[params.skills.list]]
+        title = "Libraries"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Flask, GeoPandas, Matplotlib, Numpy, Pandas, PyTorch, Rasterio, Rtree, Scipy, Scikit-learn, Shapely, SQLAlchemy"
+
+        [[params.skills.list]]
+        title = "Geospatial Tools"
         [[params.skills.list.items]]
-        details = "MATLAB"
+        details = "QGIS, Google Earth Engine"
+
+        [[params.skills.list]]
+        title = "Big Data Tools"
+        [[params.skills.list.items]]
+        details = "Google Compute Engine, BigQuery, Google Bucket"
 
 
     [params.education]
@@ -73,10 +84,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         degree = "Ph.D. in Electrical & Computer Engineering"
         university = "University of Massachusetts Amherst"
         dates = "2018 - Present"
+
         [[params.education.list]]
         degree = "M.S. in Energy Science, Technology & Policy"
         university = "Carnegie Mellon University"
         dates = "2016 - 2017"
+
         [[params.education.list]]
         degree = "B.Tech. in Electrical Engineering"
         university = "Pandit Deendayal Petroleum University"
@@ -114,7 +127,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.awards.list]]
         name = "Dean's Fellowship"
         body = "UMass Amherst"
-        date = "2018"
+        date = "2018-19"
         [[params.awards.list]]
         name = "Travel Grant Award"
         body = "IEEE Industry Applications Society"
@@ -127,8 +140,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Hello! My name is Zeal and I am a third year Ph.D. student in the Electrical & Computer Engineering department at University of Massachusetts Amherst. I work at the Systems Towards Infrastructure Measurement & Analytics (STIMA) lab, advised by Prof. Jay Taneja. I hold a master’s degree in Energy Science, Technology & Policy with concentration in ECE from Carnegie Mellon University. My research at UMass Amherst is focused on harnessing the power of data and technology for developing low-cost energy infrastructure monitoring and management solutions. Additionally, my work also involves using mobile systems, remote sensing, machine learning & deep learning for acquiring data and information in low-data settings."
+        text1 = """
+        I am a fourth year Ph.D. student in the STIMA Lab (Systems Towards Infrastructure Measurement and Analytics), advised by Professor Jay Taneja. My research focuses on developing data-driven tools for measuring and mapping quality and reliability of electricity systems in a non-intrusive manner."""
 
+        text2 = """
+        I develop both -- localized and wide-area -- monitoring solutions. Localized monitoring techniques involve use of cameras to measure phase and quality of electricity. The wide-area monitoring approaches combine large volumes of daytime and/or nighttime satellite images and a variety of ground-truth datasets (surveys, smart meter data, utility data), to estimate electrification status, degree of electrification, power supply inconsistencies and energy demand using satellite imagery.
+        """
+
+        text3 = """
+        My work mainly involves data analytics, geospatial data processing, machine learning, deep learning and signal processing."""
 
 
     [params.experience]
@@ -139,115 +159,108 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "Aug 2018 - Present"
         company = "STIMA Lab, UMass Amherst"
         [[params.experience.list.items]]
-        details = "Research Focus: Data science and AI for social good, technology for development, remote sensing, energy analytics."
+        details = "Research and develop data-driven solutions to measure and map energy infrastructure systems in developed and developing settings. Please refer to the list of research projects and publications for more detail."
 
         [[params.experience.list]]
-        title = "AI Engineering Intern"
+        title = "AI Engineering Intern (Remote)"
         dates = "Aug 2018 - Present"
         company = "Atlas AI"
         [[params.experience.list.items]]
-        details = "Applied machine learning to satellite data to develop a new data layer - monthly electrification maps with spatial resolution of 0.5km for the continent of Africa, from 2012 to present."
+        details = "Developed a Machine Learning (ML) model to detect electrification in satellite images and scaled it to produce high-resolution monthly electrification records for Africa from 2012-20 -- a [locational intelligence product](https://www.atlasai.co/product) offered by Atlas AI to assist its clients with strategically identifying sites for new infrastructure projects."
         [[params.experience.list.items]]
-        details = "Built prototype of energy consumption data layer that used electrification maps, publicly available satellite data and surveys to estimate tiers of energy consumption at a spatial resolution of 0.5km."
+        details = "Built prototype of energy consumption prediction data layer that used electrification maps, publicly available satellite data and surveys to estimate tiers of energy consumption at a spatial resolution of 0.5km; aimed at helping clients locate clusters of target customers using granular insights into local energy demand."
         [[params.experience.list.items]]
-        details = "Developed the aforementioned data layers to improve the market insights being delivered to company's clients and to supplement data used for training company's proprietary ML models."
-        [[params.experience.list.items]]
-        details = "Gained experience in building end-to-end data pipelines using Google Cloud products - BigQuery, Bucket, Compute Engine, and a geospatial data analysis platform - Google Earth Engine."
+        details = "Explored and ingested satellite data using Google Earth Engine, trained and evaluated the ML models using Python on Google Compute Engine, and stored the results in Google Bucket and BigQuery."
 
         [[params.experience.list]]
         title = "Data Science Intern"
         dates = "Feb 2018 - Sep 2018"
         company = "SparkMeter, Inc."
         [[params.experience.list.items]]
-        details = "Developed a monitoring tool using Grafana and SQL for real-time monitoring of deployed smart meters, base stations and cloud services to facilitate efficient troubleshooting."
+        details = "Analyzed smart meter data to quantify the evolution of electricity quality, reliability and consumption across 68 sites in Africa with 200+ smart meters per site, for SparkMeter's keynote presentation at Microgrid Global Innovation Forum'18."
         [[params.experience.list.items]]
-        details = "Analyzed smart meter data to track the evolution of electricity quality and reliability across 68 sites spread over Sub-Saharan Africa and South-Asia with 10 to 500+ customers per site."
+        details = "Created a Grafana dashboard using SQL scripting for real-time monitoring of deployed smart meters, base stations and cloud services to facilitate efficient and faster troubleshooting."
         [[params.experience.list.items]]
-        details = "Provided need based data and analysis support to different teams."
+        details = "Provided need based data analysis and visualization support to different teams including engineering, hardware and customer success."
 
         [[params.experience.list]]
         title = "Engineering Intern (Remote)"
         dates = "Jun 2018 - Jul 2018"
         company = "Nikola Power"
         [[params.experience.list.items]]
-        details = "Developed an optimal battery dispatching algorithm to minimize the operating cost of residential solar grid+storage system by controlling charging & discharging of the battery."
-        [[params.experience.list.items]]
-        details = "Assisted in development of short-term load forecasting algorithm for company’s residential energy management system."
+        details = "Assisted in development of an optimal battery dispatching algorithm to minimize the operating cost of residential solar grid+storage system by controlling charging & discharging of the battery."
 
         [[params.experience.list]]
         title = "Graduate Teaching Assistant"
         dates = "Jan 2017 - Dec 2017"
         company = "Carnegie Mellon University"
         [[params.experience.list.items]]
-        details = "Head TA for two senior level courses: Fundamentals of Power Systems and Embedded Systems."
+        details = "Graduate TA for two senior level courses: Fundamentals of Power Systems and Embedded Systems."
         [[params.experience.list.items]]
-        details = "Delivered technical lectures on modeling & simulation of power systems, and solving computational power systems problems like optimal power flow in MATLAB."
+        details = "Prepared and delivered technical lectures on modeling & simulation of power systems, and solving computational power systems problems like optimal power flow in MATLAB."
+        [[params.experience.list.items]]
+        details = "Helped 30 students with course material."
 
         [[params.experience.list]]
         title = "Data Science Intern"
         dates = "May 2017 - Aug 2017"
         company = "SparkMeter, Inc."
         [[params.experience.list.items]]
-        details = "Developed a suite of interactive analytical reports that provide actionable commercial, financial and technical insights into grid operations to company’s utility customers."
+        details = "Designed and developed smart meter data intelligence reports using Python to periodically provide utilities with actionable insights into commercial and technical operations of their grids."
         [[params.experience.list.items]]
-        details = "Created an outlier detection and removal program to filter noise recorded by smart meters."
+        details = " Enhanced analytics and data visualizations delivered in SparkMeter’s data intelligence reports by incorporating feedback fromutility customers."
 
 
-    [params.ongoingprojects]
+    [params.researchprojects]
         enable = true
 
-        [[params.ongoingprojects.list]]
-        title = "Deep Learning for Measuring Density of Different Classes of Buildings in Satellite Images"
-        details = "Estimate density of residential, commercial and industrial buildings in daytime satellite images using deep learning, to support energy demand prediction efforts in emerging economies."
+        [[params.researchprojects.list]]
+        title = "Monitoring Electric Grid Inconsistencies Using Satellite Data"
+        [[params.researchprojects.list.items]]
+        details = "Develop a novel, open-source, geo-spatial data-driven tool to enable high-resolution, spatio-temporal monitoring of electric grid reliability at global scale using nighttime-lights (NL) satellite data. A consistent, global grid reliability dataset doesn’t exist till date."
+        [[params.researchprojects.list.items]]
+        details = "Demonstrated tool's application and limitations in detecting outages and estimating grid reliability at 0.5km spatial resolution in Accra, Ghana. Full paper submission under review."
+        [[params.researchprojects.list.items]]
+        details = "Collaborators: UC Berkeley, Atlas AI, Colorado School of Mines."
 
-        [[params.ongoingprojects.list]]
-        title = "Monitoring Electric Grid Reliability Using Satellite Data"
-        details = "Develop, evaluate and improve novel electric grid reliability measurement indices using nighttime-lights satellite data to enable grid reliability monitoring at a global scale; create an API to make indices publicly accessible."
+        [[params.researchprojects.list]]
+        title = "Measuring Equity of Outages Using Satellite Data"
+        [[params.researchprojects.list.items]]
+        details = "Produce spatially-explicit historical records of outages using NL data to study the equity of outages across regions, and identifying disparities causing varied outage experiences"
+        [[params.researchprojects.list.items]]
+        details = "Published a case-study on the inequitable nature of outages observed during February 2021 snowstorm across Texas. Work done in collaboration with researchers from Lawrence Berkeley National Lab and Colorado School of Mines. [__Link__](https://www.rockefellerfoundation.org/case-study/frozen-out-in-texas-blackouts-and-inequity/)"
 
-        [[params.ongoingprojects.list]]
-        title = "GridInSight 2.0: Monitoring Electricity Using Visible Lights"
-        details = "Develop a non-intrusive grid sensing system using machine vision cameras to monitor power quality of the electric grids at the edges of the distribution network in real time; evaluate and improve the system to make it deployable at scale."
+        [[params.researchprojects.list]]
+        title = "Deep Learning for Measuring Electrification Using Daytime Satellite Images"
+        [[params.researchprojects.list.items]]
+        details = "Supported on-going research efforts in energy access planning and energy demand forecasting by estimating electrification status and type (residential and non-residential) of structures in 9 million daytime satellite images spanning Kenya, using convolutional neural networks (CNN)."
+        [[params.researchprojects.list.items]]
+        details = "Accepted at ML4D workshop at NeurIPS 2021. In collaboration with Columbia University."
+        [[params.researchprojects.list.items]]
+        details = "Extending the work to compare results with multiple open-source/private electrification datasets available in the market."
 
-
-    [params.pastprojects]
-        enable = true
-
-        [[params.pastprojects.list]]
+        [[params.researchprojects.list]]
         title = "Mapping Disasters & Tracking Recovery in Conflict Zones Using Nighttime Lights"
-        company = "STIMA Lab"
-        [[params.pastprojects.list.items]]
+        [[params.researchprojects.list.items]]
         details = "Developed a technique to generate high resolution (~0.5km) disaster maps of a region as soon as one day after the crisis begins, to deliver up-to-date information regarding spatial extent of the disaster to disaster managers."
-        [[params.pastprojects.list.items]]
+        [[params.researchprojects.list.items]]
         details = "Demonstrated a method to precisely identify the day when bombing occured by tracking sudden changes in nigttime lights illumination."
-        [[params.pastprojects.list.items]]
-        details = "Detected and characterized electricity outages across a conflict-affected region; presented a case study on Sana'a - capital city of Yemen."
-        [[params.pastprojects.list.items]]
+        [[params.researchprojects.list.items]]
         details = "Proposed and evaluated two recovery measurement indices to trace recovery of the region spatially and temporally using nigttime lights data."
-        [[params.pastprojects.list.items]]
-        details = "Published full paper in the proceedings of IEEE GHTC'20, October 2020. [__Link__](//zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
+        [[params.researchprojects.list.items]]
+        details = "Published a full paper in the proceedings of IEEE GHTC'20. In collaboration with Colorado School of Mines.[__Link__](//zealshah95.github.io/Yemen_Reliability_GHTC.pdf)."
 
 
-        [[params.pastprojects.list]]
-        title = "GridInSight: Monitoring Electricity Using Visible Lights"
-        company = "STIMA Lab"
-        details = "Created a low-cost solution to non-intrusively monitor grid power quality and phase using smartphone cameras to facilitate better management of grids in developing countries."
-        [[params.pastprojects.list.items]]
+        [[params.researchprojects.list]]
+        title = "Monitoring Electricity Using Cameras and Visible Lights"
+        [[params.researchprojects.list.items]]
+        details = "Develop a non-intrusive grid sensing system using cameras to monitor power quality of the electric grids at the edges of the distribution network in real time; evaluate and improve the system to make it deployable at scale."
+        [[params.researchprojects.list.items]]
         details = "Demonstrated the use of cell phone and machine vision cameras to non-intrusively monitor electric-grid frequency and phase with errors of 1-2%, and 2-10%, respectively."
-        [[params.pastprojects.list.items]]
+        [[params.researchprojects.list.items]]
         details = "Developed a novel technique that uses cameras to passively monitor voltage, and obtained an error of 8-15% for measuring voltage of a light bulb that our system had not seen previously."
-        [[params.pastprojects.list.items]]
-        details = "Published full paper in the proceedings of ACM BuildSys'19, November 2019. [__Link__](//zealshah95.github.io/GridInSight_BuildSys.pdf)"
-
-
-        [[params.pastprojects.list]]
-        title = "Smart Metering Data For Tracking Access to Electricity"
-        [[params.pastprojects.list.items]]
-        details = "Analyzed smart meter data to track the evolution of electricity availability, reliability, quality, and grid capacity across 68sites spread over Sub-Saharan Africa and South-Asia with 10 to 500+ customers (smart meters) per site."
-        [[params.pastprojects.list.items]]
-        details = "Quantified the growth of energy access across sites by linking smart meter data analysis to World Bank’s Multi-tier Framework for household electricity supply."
-        [[params.pastprojects.list.items]]
-        details = "Presented by SparkMeter at the 7th Microgrid Innovation Forum, September 2018."
-
+        [[params.researchprojects.list.items]]
+        details = "Published a full paper in the proceedings of ACM BuildSys'19. [__Link__](//zealshah95.github.io/GridInSight_BuildSys.pdf)"
 
 
     [params.courseprojects]
@@ -277,26 +290,67 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Analysis of Energy Transport & Storage in Switzerland"
         details = "Studied and presented a detailed analysis of energy transmission and storage in Zürich and Canton of Valais; Proposed solutions to reduce congestion and achieve their future energy goals"
 
+
     [params.publications]
         enable = true
 
         [[params.publications.list]]
-        title = "Conference Papers"
+        title = "Research Papers"
+
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Feng-Chi Hsu, Christopher D. Elvidge, and Jay Taneja. “Mapping Disasters & Tracking Recovery in Conflict Zones Using Nighttime Lights.” In the IEEE Global Humanitarian Technology Conference (GHTC'20), October 2020. [__Link__](//zealshah95.github.io/Yemen_Reliability_GHTC.pdf)"
+        details = "**Zeal Shah**, Noah Klugman, Gabriel Cadamuro, Feng-Chi Hsu, Christopher D. Elvidge, Jay Taneja. “The Electricity Scene from Above: Exploring Power Grid Inconsistencies Using Satellite Data in Accra, Ghana.” Submission under review. (Full paper)"
+
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**. [__Link__](//zealshah95.github.io/GridInSight_BuildSys.pdf)"
+        details = "**Zeal Shah**, Simone Fobi, Gabriel Cadamuro, and Jay Taneja. “A Higher Purpose: Measuring Electricity Access Using High-Resolution Daytime Satellite Imagery.” Machine Learning for Development (ML4D) workshop at NeurIPS'21, December 2021. (Workshop paper)"
+
+        [[params.publications.list.items]]
+        details = "Santiago Correa, **Zeal Shah**, Jay Taneja. “This Little Light of Mine: Electricity Access Mapping Using Night-Time Light Data.” In the proceedings of the 12th International Conference on Future Energy Systems (ACM e-Energy'21), June 2021. [__Link__](https://santiagocorrea.github.io/publication/this-little-light-of-mine-electricity-access-mapping-using-night-time-light-data/This-Little-Light-of-Mine:-Electricity-Access-Mapping-Using-Night-time-Light-Data.pdf). (Short paper)"
+
+
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Feng-Chi Hsu, Christopher D. Elvidge, and Jay Taneja. “Mapping Disasters & Tracking Recovery in Conflict Zones Using Nighttime Lights.” In the IEEE Global Humanitarian Technology Conference (GHTC'20), October 2020. [__Link__](//zealshah95.github.io/Yemen_Reliability_GHTC.pdf) (Full paper)"
+
+        [[params.publications.list.items]]
+        details = "**Zeal Shah**, Alex Yen, Ajey Pandey, and Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation (BuildSys’19), November 2019. **Best Paper Nominee**. [__Link__](//zealshah95.github.io/GridInSight_BuildSys.pdf) (Full paper)"
+
+
+        [[params.publications.list]]
+        title = "Book Chapters"
+        [[params.publications.list.items]]
+        details = """**Zeal Shah**, Ali Moghassemi, and Panayiotis Moutis. "Frameworks for Considering RES and Load Uncertainties in VPP Decision-Making." Scheduling and Operation of Virtual Power Plants by Elsevier. To be published in 2022."""
+
+
+        [[params.publications.list]]
+        title = "Blogposts / Notes"
+
+        [[params.publications.list.items]]
+        details = """**Zeal Shah**, JP Carvallo, Feng-Chi Hsu, Jay Taneja. "Frozen Out in Texas: Blackouts and Inequity". End Energy Poverty Field Note published by the Rockefeller Foundation, April 2021. [__Link__](https://www.rockefellerfoundation.org/case-study/frozen-out-in-texas-blackouts-and-inequity/)"""
+
+        [[params.publications.list.items]]
+        details = """Stephen Lee, **Zeal Shah**, Brian Min, Jay Taneja. "Lighting the Way: Nighttime Lights for Electrification Planning". Memo published by Energy for Growth Hub, April 2021. [__Link__](https://www.energyforgrowth.org/wp-content/uploads/2021/04/Lighting-the-Way_-Nighttime-Lights-for-Electrification-Planning-.pdf)"""
+
+        [[params.publications.list.items]]
+        details = """**Zeal Shah**. "What is Temporal Resolution?". Blogpost published by Atlas AI, June 2020. [__Link__](https://www.atlasai.co/learn/what-is-temporal-resolution/)"""
+
+
 
         [[params.publications.list]]
         title = "Posters & Presentations"
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**. [__Link__](//zealshah95.github.io/reliability_studies_poster.pdf)"
+        details = """**Zeal Shah**, Jay Taneja. "Exploring Power Grid Inconsistencies Using Satellite Data in Accra, Ghana." UMass Energy Forum, April 2021. [__Link__](//zealshah95.github.io/Final_Poster_Zeal_Shah_2021_new.pdf)"""
+
+        [[params.publications.list.items]]
+        details = """**Zeal Shah**, Jay Taneja. “Monitoring Electric Grid Reliability Using Satellite Data.” In the 6th ACM International Conference on Systems for Energy-Efficient Built Environments, Cities, and Transportation, November 2019. **Best Poster Award**. [__Link__](//zealshah95.github.io/reliability_studies_poster.pdf)"""
+
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Alex Yen, Ajey Pandey, Jay Taneja. “GridInSight: Monitoring Electricity Using Visible Lights.” In the 2nd Annual ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS’19), July 2019. [__Link__](//zealshah95.github.io/gridinsight_poster.pdf)"
+
         [[params.publications.list.items]]
         details = "“Smart Metering Data For Tracking Access to Electricity.” SparkMeter's keynote at the 7th Microgrid Global Innovation Forum, September 2018. (Presented by Jon Thacker)"
+
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Yoolhee Kim, Anand Prakash, Vasu Nambeesan. “Occupancy Prediction Based on the Power Consumption Patterns.” In the Carnegie Mellon University Symposium on Machine Learning in Science and Engineering, May 2017. [__Link__](//zealshah95.github.io/Where_When_and_Watt.pdf)"
+
         [[params.publications.list.items]]
         details = "**Zeal Shah**, Siddhartha Joshi. “Operation and Analysis of a Bi-directional DC-DC Converter for Efficient Charge Control of Battery in a Microgrid.” In the 50th IEEE Industry Applications Society Annual Meeting, October 2015."
 

@@ -1,5 +1,5 @@
 - id: awards
-  translation: Awards
+  translation: Honors & Awards
 - id: education
   translation: Education
 - id: experiences
@@ -8,12 +8,12 @@
   translation: Information
 - id: publications
   translation: Publications
-- id: pastprojects
-  translation: Past Projects
+- id: researchprojects
+  translation: Research Projects
 - id: posters
   translation: Posters & Presentations
-- id: ongoingprojects
-  translation: On-going Projects
+# - id: ongoingprojects
+#   translation: On-going Projects
 - id: courseprojects
   translation: Selected Course Projects
 - id: interests
