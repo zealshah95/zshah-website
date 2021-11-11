@@ -301,7 +301,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "**Zeal Shah**, Noah Klugman, Gabriel Cadamuro, Feng-Chi Hsu, Christopher D. Elvidge, Jay Taneja. “The Electricity Scene from Above: Exploring Power Grid Inconsistencies Using Satellite Data in Accra, Ghana.” Submission under review. (Full paper)"
 
         [[params.publications.list.items]]
-        details = "**Zeal Shah**, Simone Fobi, Gabriel Cadamuro, and Jay Taneja. “A Higher Purpose: Measuring Electricity Access Using High-Resolution Daytime Satellite Imagery.” Machine Learning for Development (ML4D) workshop at NeurIPS'21, December 2021. (Workshop paper)"
+        details = "**Zeal Shah**, Simone Fobi, Gabriel Cadamuro, and Jay Taneja. “A Higher Purpose: Measuring Electricity Access Using High-Resolution Daytime Satellite Imagery.” Machine Learning for Development (ML4D) workshop at NeurIPS'21, December 2021. **Ranked among top 3 papers***. (Workshop paper)"
 
         [[params.publications.list.items]]
         details = "Santiago Correa, **Zeal Shah**, Jay Taneja. “This Little Light of Mine: Electricity Access Mapping Using Night-Time Light Data.” In the proceedings of the 12th International Conference on Future Energy Systems (ACM e-Energy'21), June 2021. [__Link__](https://santiagocorrea.github.io/publication/this-little-light-of-mine-electricity-access-mapping-using-night-time-light-data/This-Little-Light-of-Mine:-Electricity-Access-Mapping-Using-Night-time-Light-Data.pdf). (Short paper)"
